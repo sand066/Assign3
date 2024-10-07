@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(211, 185, 152);
+
+}
+h1{
+    font-family: Garamond, "Times New Roman", serif; 
+    font-size: 30pt;
+    font-style: italic;
+    background-color: azure;
+    text-align: center;
+
+}
+ul{
+    font-family: Garamond, "Times New Roman", serif; 
+    font-size: 20pt;
+    font-style: italic;
+    margin: auto;
+    width: 1000px;
+
+}
+
+.flex_container1{
+    display: flex;
+    flex-direction: row;
+}
+.flex_container2{
+    display: flex;
+    flex-direction: row;
+}
+.flex_container3{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: rgb(240, 233, 141);
+    justify-content: center;
+}
+.flex_container3 img{
+    width: 100%;
+
+}
+.flex_container3 > div{
+    width: 300px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+#cinamon1{
+    height: 400px;
+    padding-top: 150px;
+    padding-right: 100px ;
+}
+#cinamon2{
+    width: 150px;
+    padding-top: 150px;
+    padding-left: 100px;
+
+}
+.center{
+    text-align: center;
+}
